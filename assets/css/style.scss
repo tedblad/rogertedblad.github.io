@@ -1,0 +1,11 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header li {
+    width: 100px;
+    float: left;
+    border-right: 0px solid #e0e0e0;
+    height: 40px;
+}
