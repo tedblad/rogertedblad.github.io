@@ -1,5 +1,38 @@
-theme: jekyll-theme-minimal
-show_downloads: false
-title: Roger Tedblad
-description: Software Developer, IoT Devotee, Bridge and Tunnel enthusiast
-linkedin_username: tedblad
+# Site settings
+title: "Roger Tedblad"
+email: 
+description: "A dark blog theme for Jekyll."
+baseurl: ""
+url: "http://carte-noire.jacobtomlinson.co.uk/"
+title_description: "Software Developer, IoT Devotee, Bridge and Tunnel enthusiast"
+title_image: "https://en.gravatar.com/userimage/868120/a49696722c52a341f164ea51b35627a1.jpg?size=200"
+google_analytics: ""
+disqus_account: 
+github_repository: 
+addthis_id:
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: tedblad
+github_username:  tedblad
+instagram_username: 
+reddit_username: 
+linkedin_link: https://www.linkedin.com/in/tedblad/
+google_plus_link: 
+stackoverflow_link:
+xing_link:
+facebook_link:
+
+# Footer
+footer_left: "2017"
+footer_right: ""
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
